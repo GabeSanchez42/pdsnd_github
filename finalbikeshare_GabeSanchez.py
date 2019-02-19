@@ -158,7 +158,7 @@ def user_stats(df):
         print('\nThe oldest birth year is {}.'.format(df['Birth Year'].min()))
         print('\nThe youngest birth year is {}.\n'.format(df['Birth Year'].max()))
     else:
-        print('birth year column does not exist')
+        print('Birth year column does not exist.')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
