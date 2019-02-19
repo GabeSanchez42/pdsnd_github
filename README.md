@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
+This project and README file was created February 15, 2019
 
 ### Project Title
-Replace the Project Title
+Post BikeShare python project/script on GitHub
 
 ### Description
-Describe what your project is about and what it does
+My project runs an interactive program that provides bikeshare data information in 3 major American cities.
 
 ### Files used
-Include the files used
+finalbikeshare_GabeSanchez.py, readme_bikeshareGSanchez.txt
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity Classroom lessons and practice questions, a friend of mine named Kevin Kirchhoff, helped answer general Python and Scripting questions and Stack Overflow examples and function,method definitions. www.StackOverflow.com
