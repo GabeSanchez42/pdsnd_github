@@ -1,8 +1,8 @@
 ### Date created
-This project and README file was created February 15, 2019
+This project and README file was created February 15, 2019.
 
 ### Project Title
-Post BikeShare python project/script on GitHub
+PFDA Nanodegree Final Project: Post your Work on Github
 
 ### Description
 My project runs an interactive program that provides bikeshare data information in 3 major American cities.
