@@ -68,7 +68,13 @@ def load_data(city, month, day):
         month = months.index(month) + 1
         # filter by month to create the new dataframe.
         df = df[df['month'] == month]
+<<<<<<< HEAD
     # filter by day of week if applicable.
+||||||| merged common ancestors
+    # filter by day of week if applicable
+=======
+        # filter by day of week if applicable
+>>>>>>> refactoring
     if day != 'all':
         # filter by day of week to create the new dataframe.
         df = df[df['day_of_week'] == day.title()]
@@ -158,7 +164,7 @@ def user_stats(df):
         print('\nThe oldest birth year is {}.'.format(df['Birth Year'].min()))
         print('\nThe youngest birth year is {}.\n'.format(df['Birth Year'].max()))
     else:
-        print('birth year column does not exist')
+        print('Birth year column does not exist.')
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
@@ -169,7 +175,7 @@ def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
-        raw_or_stats = input("Enter raw to see raw data, enter stats to see statistics\n")
+        raw_or_stats = input("Enter 'raw' to see raw data, enter 'stats' to see statistics.\n")
         if raw_or_stats == "raw":
              print("start of raw")
              i = 0
