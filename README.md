@@ -2,7 +2,7 @@
 This project and README file was created February 18, 2019.
 
 ### Project Title
-PFDA Nanodegree Final Project: Post your Work on Github
+PFDA Nanodegree Final Project: Post your Work on Github. Final Project.
 
 ### Description
 My project runs an interactive program that provides bikeshare data information in 3 major American cities.
