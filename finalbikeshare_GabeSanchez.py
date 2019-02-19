@@ -68,13 +68,7 @@ def load_data(city, month, day):
         month = months.index(month) + 1
         # filter by month to create the new dataframe.
         df = df[df['month'] == month]
-<<<<<<< HEAD
-    # filter by day of week if applicable.
-||||||| merged common ancestors
     # filter by day of week if applicable
-=======
-        # filter by day of week if applicable
->>>>>>> refactoring
     if day != 'all':
         # filter by day of week to create the new dataframe.
         df = df[df['day_of_week'] == day.title()]
