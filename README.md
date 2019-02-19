@@ -12,7 +12,7 @@ finalbikeshare_GabeSanchez.py, readme_bikeshareGSanchez.txt
 
 ### Credits
 - Udacity Classroom lessons and practice questions.
-- A friend of mine named Kevin Kirchhoff, helped answer general Python and Scripting questions
-- Stack Overflow examples and function,method definitions. www.StackOverflow.com
-- Atlassian Blog (git branching, .gitignore)
+- A friend of mine named Kevin Kirchhoff, helped answer general Python and Scripting questions.
+- Stack Overflow examples and function,method definitions. www.StackOverflow.com.
+- Atlassian Blog (git branching, .gitignore).
 - Kevin helped me again with Command Line and Git.
