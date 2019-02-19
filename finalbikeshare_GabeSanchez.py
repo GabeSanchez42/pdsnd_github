@@ -36,6 +36,7 @@ def get_filters():
     # get user input for day of week (all, monday, tuesday, ... sunday).
     while True:
         day = input("\nWhich day of the week would you like to see data for? Please enter: monday, tuesday, wednesday, thursday, friday, saturday, sunday or all\n")
+    # if user inputs a capital letter in day, this line below will make user input match DAY_LIST
         day = day.lower()
         if day in DAY_LIST:
             break
