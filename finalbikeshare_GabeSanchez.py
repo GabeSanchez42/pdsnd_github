@@ -169,7 +169,7 @@ def main():
     while True:
         city, month, day = get_filters()
         df = load_data(city, month, day)
-        raw_or_stats = input("Enter raw to see raw data, enter stats to see statistics\n")
+        raw_or_stats = input("Enter 'raw' to see raw data, enter 'stats' to see statistics.\n")
         if raw_or_stats == "raw":
              print("start of raw")
              i = 0
